@@ -20,7 +20,7 @@ async function clickButton (){
     console.log("ACA SE DETIENE8");
     console.log("ACA SE DETIENE9 ");
 
-   await fetch('https://jsonplaceholder.typicode.com/users/4')
+   fetch('https://jsonplaceholder.typicode.com/users/4')
       .then(response => response.json()).then(res =>{
         //console.log(res.username)
          usuario = res;
